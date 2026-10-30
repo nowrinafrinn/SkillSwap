@@ -2,6 +2,8 @@
 
 A peer-to-peer platform where people teach what they know and learn what they don't.
 
+**Live demo:** https://skillswap-nine-drab.vercel.app
+
 ## Features
 
 - Skill listings with search, reviews, and swap requests
