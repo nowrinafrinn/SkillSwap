@@ -80,16 +80,16 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {[
-            "Skill Matching",
-            "Easy Scheduling",
-            "Secure Messaging",
-            "Ratings & Reviews",
-            "Location-Based",
-            "Point System",
+            { title: "Skill Discovery", description: "Browse and search skills offered by people in the community." },
+            { title: "Swap Requests", description: "Request a swap on any listing and track its progress from your profile." },
+            { title: "Private Messaging", description: "Chat one-on-one to agree on the details of your swap." },
+            { title: "Ratings & Reviews", description: "Read reviews before you swap and share feedback afterwards." },
+            { title: "Community Map", description: "See where other members are and find people near you." },
+            { title: "Point System", description: "Earn points for each completed swap, plus bonuses for milestones." },
           ].map((feature, i) => (
             <div key={i} className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="font-semibold text-lg mb-2">{feature}</h4>
-              <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="font-semibold text-lg mb-2">{feature.title}</h4>
+              <p className="text-sm text-gray-600">{feature.description}</p>
             </div>
           ))}
         </div>
@@ -102,7 +102,7 @@ export default function Home() {
           Our simple 5-step process makes it easy to connect with others and share skills.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-6 max-w-6xl mx-auto">
-          {["Create Your Profile", "Discover Matches", "Connect & Discuss", "Book Sessions", "Exchange & Rate"].map(
+          {["Create Your Profile", "Discover Matches", "Connect & Discuss", "Request a Swap", "Exchange & Rate"].map(
             (step, i) => (
               <div key={i} className="p-4">
                 <div className="text-indigo-600 text-3xl font-bold mb-2">{i + 1}</div>
