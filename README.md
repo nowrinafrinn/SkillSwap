@@ -35,6 +35,3 @@ pnpm install
 pnpm dev
 ```
 
-## Credits
-
-Built together with [sh00von](https://github.com/sh00von).
