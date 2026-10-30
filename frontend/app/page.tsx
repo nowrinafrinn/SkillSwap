@@ -52,8 +52,8 @@ export default function Home() {
         <div className="md:w-1/2 grid grid-cols-2 gap-4 mt-8 md:mt-0">
           <div className="rounded-lg shadow overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=300"
-              alt="Person teaching"
+              src="/images/hero-teaching.jpg"
+              alt="People attending a workshop in a classroom"
               width={300}
               height={300}
               className="w-full h-full object-cover"
@@ -61,8 +61,8 @@ export default function Home() {
           </div>
           <div className="rounded-lg shadow overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=300"
-              alt="Person learning"
+              src="/images/hero-learning.jpg"
+              alt="Students studying together on wide indoor steps"
               width={300}
               height={300}
               className="w-full h-full object-cover"
